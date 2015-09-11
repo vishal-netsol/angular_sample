@@ -5,6 +5,7 @@ describe "RecipesController", ->
   routeParams  = null
   resource     = null
 
+
 setupController =(keywords)->
   inject(($location, $routeParams, $rootscope, $resource)->
     scope                = $rootScope.$new()
